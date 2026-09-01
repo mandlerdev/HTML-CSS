@@ -1,0 +1,23 @@
+        body {
+            text-align: center;
+            background-color: rgb(61, 61, 61);
+            color: rgb(209, 24, 24);
+        
+        }
+
+        .thumbs {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .thumbs img {
+            width: 100%;
+            height: auto;
+            display: block;
+            width: 300px;
+        }
