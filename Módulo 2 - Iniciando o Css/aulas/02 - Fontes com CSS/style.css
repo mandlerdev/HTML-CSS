@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* { /* Paragráfo sem serifa para leitura mais didática */
+    font-family: "Work Sans", Helvetica, sans-serif;
+    font-size: 1.1em;
+    /* 
+        Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+    
+        Medidas Relativas:
+    em, ex, rem, vw 
+
+        Peso da Fonte: 
+    font-weight: ;
+
+    lighter, normal, bold e bolder */
+
+    font-style: italic;
+}
+
+h1 {
+    /* shorthand font
+    -font-style -> font-weight -> font-size -> font-family */
+
+    font: italic bolder 3em "Work Sans", sans-serif;
+
+}
+
+h2 {
+    font: bold 2em "Work Sans";
+}
