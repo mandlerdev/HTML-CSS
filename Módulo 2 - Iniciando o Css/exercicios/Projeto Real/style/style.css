@@ -92,10 +92,30 @@ main {
 
 main h1 {
     font-family: var(--fonte-android);
+    text-align: center;
+    color: var(--cor4);
+    
 }
 
 main h2 {
     font-family: var(--fonte-android);
+    text-indent: 50px;
+    margin: 20px 0px;
+}
+
+main p {
+    margin: 15px 20px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.4em;
+    font-size: 18px;
+}
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+    font-size: 20px;
+    padding: 2px 8px;
 }
 
 main img {
@@ -103,7 +123,7 @@ main img {
 }
 
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
